@@ -44,7 +44,7 @@
 
 from ambf_msgs.msg import CameraState
 from ambf_msgs.msg import CameraCmd
-from ambf_base_object import BaseObject
+from .ambf_base_object import BaseObject
 
 
 class Camera(BaseObject):

@@ -45,7 +45,7 @@
 from transformations import quaternion_from_euler, euler_from_quaternion
 from ambf_msgs.msg import ObjectState
 from ambf_msgs.msg import ObjectCmd
-from ambf_base_object import BaseObject
+from .ambf_base_object import BaseObject
 from geometry_msgs.msg import Pose, Wrench
 
 

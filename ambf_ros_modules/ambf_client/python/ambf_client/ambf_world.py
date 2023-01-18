@@ -43,7 +43,7 @@
 # //==============================================================================
 
 from ambf_msgs.msg import WorldState, WorldCmd
-from watch_dog import WatchDog
+from .watch_dog import WatchDog
 from std_msgs.msg import Empty
 
 class World(WatchDog):

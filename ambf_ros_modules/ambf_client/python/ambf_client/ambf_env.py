@@ -42,7 +42,7 @@
 # */
 # //==============================================================================
 
-from ambf_client import Client
+from .ambf_client import Client
 from gym import spaces
 import numpy as np
 import math

@@ -45,7 +45,7 @@
 from transformations import quaternion_from_euler, euler_from_quaternion
 from ambf_msgs.msg import RigidBodyState
 from ambf_msgs.msg import RigidBodyCmd
-from ambf_base_object import BaseObject
+from .ambf_base_object import BaseObject
 from geometry_msgs.msg import Pose, Wrench, Twist
 
 

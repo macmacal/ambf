@@ -54,14 +54,14 @@ from ambf_msgs.msg import VehicleState, VehicleCmd
 from std_msgs.msg import Empty
 import threading
 from geometry_msgs.msg import WrenchStamped
-from ambf_actuator import Actuator
-from ambf_camera import Camera
-from ambf_light import Light
-from ambf_object import Object
-from ambf_rigid_body import RigidBody
-from ambf_sensor import Sensor
-from ambf_vehicle import Vehicle
-from ambf_world import World
+from .ambf_actuator import Actuator
+from .ambf_camera import Camera
+from .ambf_light import Light
+from .ambf_object import Object
+from .ambf_rigid_body import RigidBody
+from .ambf_sensor import Sensor
+from .ambf_vehicle import Vehicle
+from .ambf_world import World
 from difflib import SequenceMatcher
 
 

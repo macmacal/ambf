@@ -42,13 +42,13 @@
 # */
 # //==============================================================================
 
-from ambf_client import Client
-from ambf_world import World
-from ambf_object import Object
-from ambf_rigid_body import RigidBody
-from ambf_actuator import Actuator
-from ambf_camera import Camera
-from ambf_sensor import Sensor
-from ambf_light import Light
-from ambf_env import AmbfEnv
-from watch_dog import WatchDog
+from .ambf_client import Client
+from .ambf_world import World
+from .ambf_object import Object
+from .ambf_rigid_body import RigidBody
+from .ambf_actuator import Actuator
+from .ambf_camera import Camera
+from .ambf_sensor import Sensor
+from .ambf_light import Light
+from .ambf_env import AmbfEnv
+from .watch_dog import WatchDog

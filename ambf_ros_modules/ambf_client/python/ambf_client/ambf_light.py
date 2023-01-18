@@ -44,7 +44,7 @@
 
 from ambf_msgs.msg import LightState
 from ambf_msgs.msg import LightCmd
-from ambf_base_object import BaseObject
+from .ambf_base_object import BaseObject
 import rospy
 
 

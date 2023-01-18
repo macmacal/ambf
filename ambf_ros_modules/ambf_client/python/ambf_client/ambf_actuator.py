@@ -44,7 +44,7 @@
 
 from ambf_msgs.msg import ActuatorState
 from ambf_msgs.msg import ActuatorCmd
-from ambf_base_object import BaseObject
+from .ambf_base_object import BaseObject
 import rospy
 from geometry_msgs.msg import Pose, Wrench
 
