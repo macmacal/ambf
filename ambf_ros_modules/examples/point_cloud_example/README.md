@@ -27,7 +27,7 @@ python point_cloud_example.py
 
 ``` python
 pc_topics = rospy.get_param('/ambf/env/World/point_cloud_topics')
-print 'Existing Topics AMBF is listening to for Point Cloud'
+print('Existing Topics AMBF is listening to for Point Cloud')
 print pc_topics
 pc_topics.append('/ambf/env/World/another_point_cloud')
 rospy.set_param('/ambf/env/World/point_cloud_topics', pc_topics)

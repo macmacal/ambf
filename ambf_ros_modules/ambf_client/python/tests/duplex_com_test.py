@@ -35,7 +35,7 @@ def main():
         cmd.step_clock = not cmd.step_clock
         pre_step = step
         if dstep > cmd.n_skip_steps:
-            print 'Jumped {} steps, default is {}'.format(dstep, cmd.n_skip_steps)
+            print('Jumped {} steps, default is {}'.format(dstep, cmd.n_skip_steps))
         pub.publish(cmd)
         rate.sleep()
 

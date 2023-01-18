@@ -82,8 +82,8 @@ os.chdir('./Reduced')
 files = os.listdir('.')
 
 for cur_file in files:
-    print '--------------------------------'
-    print '--------------------------------'
+    print('--------------------------------')
+    print('--------------------------------')
     print "Opening Bag file: ", cur_file
 
     print(cur_file.split('_'))
@@ -98,10 +98,10 @@ for cur_file in files:
     ctr = 0
     final_time = 0
     for topic, msg, time in cur_bag.read_messages(['/ambf/env/user_study_time']):
-        # print 'TOPIC: ', topic
-        # print 'TIME: ', time
-        # print 'MESSAGE: ', msg
-        # print 'COUNTER: ', ctr
+        # print('TOPIC: ', topic)
+        # print('TIME: ', time)
+        # print('MESSAGE: ', msg)
+        # print('COUNTER: ', ctr)
         ctr = ctr + 1
         final_time = time
 

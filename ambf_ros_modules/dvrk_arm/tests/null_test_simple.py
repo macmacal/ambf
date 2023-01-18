@@ -124,8 +124,8 @@ def main():
             js_cmd.effort[3] = tau_4
             js_cmd.effort[5] = tau_6
             joint_state_pub.publish(js_cmd)
-            #print 'PITCH JOINT: ', qs[4]
-            # print 'YAW JOINT: ', tau6
+            #print('PITCH JOINT: ', qs[4])
+            # print('YAW JOINT: ', tau6)
             # print(round(e, 2))
             # print('YAW :', qs[3], 'PITCH: ', qs[4], ' | YAW: ', qs[5])
         r.sleep()

@@ -100,7 +100,7 @@ def main():
             direction = 1
 
         re = l4_o * r4 * l5_o * r5 * l6_o * r6 * l7_o * r7
-        # print 'EE Matrix'
+        # print('EE Matrix')
         # print re
         ve = re[:, 2]
         v4 = r4[:, 0]
