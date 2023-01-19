@@ -47,8 +47,8 @@ from gym import spaces
 import numpy as np
 import math
 import time
-from ambf_world import World
-from ambf_object import Object
+from .ambf_world import World
+from .ambf_object import Object
 from numpy import linalg as LA
 
 
